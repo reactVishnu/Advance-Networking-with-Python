@@ -21,7 +21,7 @@ try:
         client_socket.close()
         print("The connection has been closed")
 except Exception as e:
-    print("An Exception Occurred!")
+    print(f"An Exception Occurred! {e}")
 finally:
     print("Closing the connection")
     client_socket.close()
